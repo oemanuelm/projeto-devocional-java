@@ -24,11 +24,13 @@ public class Menu {
                 case 1:
                     System.out.println("Adicionando Devocional:");
                     do {
+                        addBrokenLine();
                         System.out.println("Digite o conteúdo do devocional:");
                         String conteudo = teclado.nextLine();
                         GerenDevo.adicionarDevocional(conteudo);
                         System.out.println("Devocional adicionado com sucesso!");
                         System.out.println("Deseja adicionar outro devocional? (s/n)");
+                        addBrokenLine();
                     } while (teclado.nextLine().equalsIgnoreCase("s"));
                     break;
                 case 2:
@@ -49,6 +51,10 @@ public class Menu {
             }
 
         } while (opcao != 5);
+    }
+
+    private static void addBrokenLine() {
+        System.out.println("\n");
     }
 
 }
