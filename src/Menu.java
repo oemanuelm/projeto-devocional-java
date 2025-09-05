@@ -29,12 +29,13 @@ public class Menu {
                         String conteudo = teclado.nextLine();
                         GerenDevo.adicionarDevocional(conteudo);
                         System.out.println("Devocional adicionado com sucesso!");
-                        System.out.println("Deseja adicionar outro devocional? (s/n)");
                         addBrokenLine();
+                        System.out.println("Deseja adicionar outro devocional? (s/n)");
                     } while (teclado.nextLine().equalsIgnoreCase("s"));
                     break;
                 case 2:
                     System.out.println("Exibindo Deevocionais:");
+                    GerenDevo.listarDvocional();
                     break;
                 case 3:
                     System.out.println("Editando Devocionais:");

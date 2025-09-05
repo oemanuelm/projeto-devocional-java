@@ -28,6 +28,7 @@ public class GerenDevo {
             System.out.println("== DEVOCIONAIS SALVOS ==");
             while ((linha = br.readLine()) != null) {
                 System.out.println(count + " - " + linha);
+                System.out.println("\n");
                 count++;
             }
         } catch (IOException e) {
