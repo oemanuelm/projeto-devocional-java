@@ -6,3 +6,4 @@ ainda não foram adicionadas todas as funções, devido a demanda de alteraçõe
 
 # Contributers
     - Emanuel Monteiro
+    - Armando Almeida
