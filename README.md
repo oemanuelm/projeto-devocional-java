@@ -3,3 +3,7 @@ Este repositório é de um projeto pessoal de um app para devocional, baseado no
 
 # updates - 19/08/25 
 ainda não foram adicionadas todas as funções, devido a demanda de alterações, não tinha feito a documentção da logica então, algumas etapas foram puladas.
+
+# Contributers
+    - Emanuel Monteiro
+    - Armando Almeida
