@@ -10,27 +10,28 @@ public class GerenDevo {
                 BufferedWriter bw = new BufferedWriter(fw)) {
             bw.write(texto);
             bw.newLine();
-            System.out.println("Dvocional salvo com sucesso!");
+            System.out.println("Devocional salvo com sucesso!");
         } catch (IOException e) {
             System.out.println("Erro ao salvar devocional: " + e.getMessage());
         }
     }
 
-    public static void listarDvocional(){
+    public static void listarDvocional() {
         File file = new File(ARQUIVO);
-        if (!file.exists()){
+        if (!file.exists()) {
             System.out.println("nehum devocional salvo ainda.");
             return;
         }
-        try (BufferedReader br = new BufferedReader(new FileReader(file))){
+        try (BufferedReader br = new BufferedReader(new FileReader(file))) {
             String linha;
             int count = 1;
             System.out.println("== DEVOCIONAIS SALVOS ==");
-            while ((linha = br.readLine()) != null){
+            while ((linha = br.readLine()) != null) {
                 System.out.println(count + " - " + linha);
+                System.out.println("\n");
                 count++;
             }
-        } catch (IOException e){
+        } catch (IOException e) {
             System.out.println("Erro ao ler os devocionais: " + e.getMessage());
         }
     }
