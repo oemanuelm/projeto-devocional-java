@@ -35,7 +35,7 @@ public class Menu {
                     break;
                 case 2:
                     System.out.println("Exibindo Deevocionais:");
-                    GerenDevo.listarDvocional();
+                    GerenDevo.listarDevocional();
                     break;
                 case 3:
                     System.out.println("Editando Devocionais:");

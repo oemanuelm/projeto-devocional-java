@@ -16,10 +16,10 @@ public class GerenDevo {
         }
     }
 
-    public static void listarDvocional() {
+    public static void listarDevocional() {
         File file = new File(ARQUIVO);
         if (!file.exists()) {
-            System.out.println("nehum devocional salvo ainda.");
+            System.out.println("nenhum devocional salvo ainda.");
             return;
         }
         try (BufferedReader br = new BufferedReader(new FileReader(file))) {
