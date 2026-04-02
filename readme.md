@@ -100,9 +100,4 @@ Este projeto tem como objetivo:
 ## 👨‍💻 Autor
 
 Emanuel Monteiro
-
----
-
-## 💡 Observação
-
-Este projeto faz parte da minha jornada de evolução como desenvolvedor, saindo de conceitos básicos até arquiteturas mais profissionais.
+Allan Almeida
