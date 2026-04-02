@@ -100,5 +100,6 @@ Este projeto tem como objetivo:
 ## 👨‍💻 Autor
 
 Emanuel Monteiro
+
 Allan Almeida
 ---
