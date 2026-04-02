@@ -99,7 +99,5 @@ Este projeto tem como objetivo:
 
 ## 👨‍💻 Autor
 
-Emanuel Monteiro
-
+Emanuel Monteiro  
 Allan Almeida
----
