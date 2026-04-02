@@ -1,0 +1,14 @@
+# Compilados
+/out/
+*.class
+
+# Dependências externas
+/libs/
+
+# Arquivos temporários
+*.log
+*.tmp
+
+# Configurações do editor
+.vscode/
+.idea/
