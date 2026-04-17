@@ -1,8 +1,12 @@
 package com.emanuel.devocional.ui;
 
+import java.util.List;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Menu {
+
+    private List<String> devocionais = new ArrayList<>();
 
     public void exibir() {
         Scanner teclado = new Scanner(System.in);
@@ -19,11 +23,22 @@ public class Menu {
 
             switch (opcao) {
                 case 1:
-                    System.out.println("Adicionar Devocional");
+                    System.out.println("Adicione o Devocional");
+                    String texto = teclado.nextLine();
+                    devocionais.add(texto);
+                    System.out.println("Devocional criado !");
                     break;
 
                 case 2:
-                    System.out.println("Listar Devocionais");
+                    System.out.println("Liste os Devocionais");
+                    if (devocionais.isEmpty()) {
+                        System.out.println("Não ha devocionais");
+                    } else {
+                        for (int i = 0; i < devocionais.size(); i++) {
+                            System.out.println(devocionais.get(i));
+                        }
+                    }
+
                     break;
 
                 case 3:
@@ -39,5 +54,5 @@ public class Menu {
 
         teclado.close();
     }
-    
+
 }
